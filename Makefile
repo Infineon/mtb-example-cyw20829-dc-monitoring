@@ -7,7 +7,7 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2022, Cypress Semiconductor Corporation (an Infineon company)
+# Copyright 2022-2023, Cypress Semiconductor Corporation (an Infineon company)
 # SPDX-License-Identifier: Apache-2.0
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,7 +40,7 @@ MTB_TYPE=COMBINED
 # To change the target, it is recommended to use the Library manager
 # ('make library-manager' from command line), which will also update Eclipse IDE launch
 # configurations.
-TARGET=CYW920829M2EVB-01
+TARGET=CYW920829M2EVK-02
 
 # Name of application (used to derive name of final linked file).
 #
