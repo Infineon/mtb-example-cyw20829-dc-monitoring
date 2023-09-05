@@ -1,16 +1,16 @@
 # DC monitoring
 
-This application demonstrates how to configure and use ADC in AIROC&trade; CYW920829M2EVB-01 board to measure DC voltage.
+This application demonstrates how to configure and use ADC in AIROC&trade; CYW920829M2EVK-02 board to measure DC voltage.
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-cyw20829-dc-monitoring)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzY3NTUiLCJTcGVjIE51bWJlciI6IjAwMi0zNjc1NSIsIkRvYyBUaXRsZSI6IkRDIG1vbml0b3JpbmciLCJyaWQiOiJyYW5tIiwiRG9jIHZlcnNpb24iOiIxLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiQlRBQkxFIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzY3NTUiLCJTcGVjIE51bWJlciI6IjAwMi0zNjc1NSIsIkRvYyBUaXRsZSI6IkRDIG1vbml0b3JpbmciLCJyaWQiOiJyYW5tIiwiRG9jIHZlcnNpb24iOiIxLjIuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiQlRBQkxFIn0=)
 
 
 ## Requirements
 
 - [ModusToolbox&trade; software](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
-- Board support package (BSP) minimum required version: 1.0.0.Beta4
+- Board support package (BSP) minimum required version: 1.0.1
 - Programming language: C
 - Associated parts: [AIROC&trade; CYW20829 Bluetooth&reg; LE SoC](https://www.infineon.com/cms/en/product/promopages/airoc20829)
 
@@ -23,7 +23,7 @@ This application demonstrates how to configure and use ADC in AIROC&trade; CYW92
 
 ## Supported kits (make variable 'TARGET')
 
-- AIROC&trade; CYW20829 Bluetooth&reg; LE evaluation kit (`CYW920829M2EVK-02`) - Default value of `TARGET`
+- [AIROC&trade; CYW20829 Bluetooth&reg; LE evaluation kit](https://www.infineon.com/CYW920829M2EVK-02) (`CYW920829M2EVK-02`) - Default value of `TARGET`
 
 ## Hardware setup
 
@@ -248,7 +248,8 @@ Document title: *CE236755* – *DC monitoring*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
- 1.1.0   | Removed support for CYW920829M2EVB-01 <br> Added support for CYW920829M2EVK-02 
+ 1.1.0   | Removed support for CYW920829M2EVB-01 <br> Added support for CYW920829M2EVK-02
+ 1.2.0   | Code example and Readme update
 
 <br />
 

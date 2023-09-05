@@ -57,11 +57,11 @@
 /*******************************************************************************
 * Global Variables
 *******************************************************************************/
-static uint16_t batmon_samples[NO_OF_DC_SAMPLES];
+static int16_t  batmon_samples[NO_OF_DC_SAMPLES];
 static uint8_t dc_sample_cnt = 0;
-static uint32_t batmon_dc_avg = 0;
+static int32_t  batmon_dc_avg = 0;
 static uint8_t batmon_cplt = 1;
-static uint16_t batt_level_mv;
+static int16_t  batt_level_mv;
 
 /* ADCMIC interrupt configuration parameters */
 const cy_stc_sysint_t ADCMIC_IRQ_cfg = {
@@ -206,7 +206,7 @@ int main(void)
         batmon_dc_avg = batmon_dc_avg/NO_OF_DC_SAMPLES;
 
         /* Convert the ADC code in millivolts */
-        batt_level_mv = Cy_ADCMic_CountsTo_mVolts((uint16_t)batmon_dc_avg, adcmic_0_config.dcConfig->context );
+        batt_level_mv = Cy_ADCMic_CountsTo_mVolts((int16_t)batmon_dc_avg, adcmic_0_config.dcConfig->context );
 
         printf("batt_level_mv = %d \r\n",batt_level_mv);
 
