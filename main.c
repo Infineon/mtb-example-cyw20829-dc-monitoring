@@ -192,6 +192,9 @@ int main(void)
         /* Enable the DC monitoring */
         Cy_ADCMic_Enable(adcmic_0_HW);
 
+        /* ADC Settling Time */
+        Cy_SysLib_Delay(10);
+
         /* Enable ADC timer to generate interrupt for reading the sample */
         Cy_ADCMic_EnableTimer(adcmic_0_HW);
 
