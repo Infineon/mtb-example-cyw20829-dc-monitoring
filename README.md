@@ -10,7 +10,7 @@ This application demonstrates how to configure and use ADC in AIROC&trade; CYW92
 ## Requirements
 
 - [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
-- Board support package (BSP) minimum required version: 1.0.1
+- Board support package (BSP) minimum required version: 3.0.0
 - Programming language: C
 - Associated parts: [AIROC&trade; CYW20829 Bluetooth&reg; LE SoC](https://www.infineon.com/cms/en/product/promopages/airoc20829)
 
@@ -250,6 +250,7 @@ Document title: *CE236755* – *AIROC&trade; CYW20829 Bluetooth&reg; LE SoC:DC m
  1.1.0   | Removed support for CYW920829M2EVB-01 <br> Added support for CYW920829M2EVK-02
  1.2.0   | Code example and Readme update
  1.3.0   | Code example and Readme template update
+ 1.4.0   | Template update to new MPN CYW20829B1010
 
 <br />
 
